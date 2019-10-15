@@ -1,0 +1,91 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+/*.row>div {
+    margin-bottom: 30px;
+    display: flex;
+}
+
+article {
+    background-color: yellowgreen;
+    height: 100%; 
+    position: relative;
+    padding: 10px;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+
+div.hoogteflex {
+    display: flex;
+}
+
+div.hoogteflex article {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+}
+
+div.hoogteflex article .btn-container {
+    border: solid 1px red;
+    margin-top: auto;
+}
+
+
+
+div.hoogte100 article {
+    background-color: cadetblue;
+    height: 100%;
+    position: relative;
+    padding-bottom:70px;
+}
+
+div.hoogte100 article .btn-container {
+    border: solid 1px red;
+    border-radius: 0;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+}*/
+
+body{
+	color: #000000;
+	font-family: ubuntu;
+}
+
+
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
