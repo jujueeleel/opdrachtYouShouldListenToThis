@@ -163,7 +163,7 @@ p.jaar{
 .honne .albumnaam{
 	position: absolute;
 	left: 100px;
-	background-color:#458F95;
+	background-color:#C5452C;
 	width: 400px;	
 	height: 40px;
 }
@@ -185,7 +185,7 @@ p.jaar{
 	color: #BD482D;
 }
 
------
+
 .loylecarner{
 	margin-bottom: 80px;
 	margin-top: 80px;
@@ -195,14 +195,16 @@ p.jaar{
 	bottom: 80px;
 	color: white;
 	text-align: center;
-	width: 350px;
+	width: 450px;
 }
 .loylecarner .albumnaam{
 	position: absolute;
-	left: 114px;
+	left: 60px;
 	background-color:#458F95;
-	width: 350px;	
-	height: 60px;
+	width: 470px;	
+	height: 40px;
+	display: flex;
+	justify-content: center;
 }
 .loylecarner h2{
 	color: #FFFFFF;
@@ -220,6 +222,139 @@ p.jaar{
 }
 .loylecarner p.jaar{
 	color: #458F95;
+}
+
+.rff{
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+.rff .albumnaam h2{
+	position: relative;
+	bottom: 80px;
+	color: white;
+	text-align: center;
+	width: 300px;
+}
+.rff .albumnaam{
+	position: absolute;
+	left: 139px;
+	background-color:#FCE000;
+	width: 300px;	
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+.rff div.band h2{
+	color: #FFFFFF;
+	font-size: 45px;
+	position: relative;
+	top: 25px;
+	width: 450px;
+	text-align: center;
+}
+.rff .row .col-6 .band{
+	background-color:#FCE000;
+	position: relative;
+	bottom: 40px;
+	left: 100px;
+	width: 370px;	
+	height: 60px;
+	display: flex;
+	justify-content: center;
+}
+.rff p.jaar{
+	color: #FCE000;
+}
+
+.balthazar{
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+.balthazar .albumnaam h2{
+	position: relative;
+	bottom: 80px;
+	color: white;
+	text-align: center;
+	width: 300px;
+}
+.balthazar .albumnaam{
+	position: absolute;
+	left: 219px;
+	top: -10px;
+	background-color:#AB8350;
+	width: 150px;	
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+.balthazar div.band h2{
+	color: #FFFFFF;
+	font-size: 45px;
+	position: relative;
+	top: 25px;
+	width: 450px;
+	text-align: center;
+}
+.balthazar .row .col-6 .band{
+	background-color:#AB8350;
+	position: relative;
+	bottom: 40px;
+	left: 100px;
+	width: 370px;	
+	height: 60px;
+	display: flex;
+	justify-content: center;
+}
+.balthazar p.jaar{
+	color: #AB8350;
+}
+
+.ben{
+	margin-bottom: 80px;
+	margin-top: 80px;
+}
+.ben .albumnaam h2{
+	position: relative;
+	font-weight: bold;
+	font-size: 45px;
+	bottom: 80px;
+	color: white;
+	text-align: center;
+	width: 400px;
+}
+.ben .row .col-6 .albumnaam{
+	position: absolute;
+	left: 143px;
+	top: -10px;
+	background-color:#75B5A5;
+	width: 300px;	
+	height: 40px;
+	display: flex;
+	justify-content: center;
+}
+.ben div.band h2{
+	color: #FFFFFF;
+	font-size: 45px;
+	position: relative;
+	top: 15px;
+	width: 350px;
+	text-align: center;
+}
+.ben .row .col-6 .band{
+	background-color:#75B5A5;
+	position: relative;
+	bottom: 40px;
+	left: 145px;
+	width: 270px;	
+	height: 50px;
+	display: flex;
+	justify-content: center;
+}
+.ben p.jaar{
+	color: #75B5A5;
+}
+.footer{
+	color: white;
 }
 
 /* MEDIA QUERIES
