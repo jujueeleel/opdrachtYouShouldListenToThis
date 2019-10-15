@@ -57,11 +57,22 @@ div.hoogte100 article .btn-container {
 }*/
 
 body{
-	color: #000000;
-	font-family: ubuntu;
+	background-color: #000000;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.titel{
+	background-color: #FFFFFF;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 h1{
-	color: #FF0004;
+	font-family: 'fredericka-the-great';
+	font-size: 90px;
+	padding-left: 20px;
 }
 
 
