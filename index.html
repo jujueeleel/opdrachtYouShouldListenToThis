@@ -13,11 +13,39 @@
 </head>
 
 <body>
-<div class="container">
-<div class="home">
+
+<nav class="nabar navbar-dark bg-dark">		
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+  </button>
+<ul class="nav flex-column">
+  <li class="nav-item">
+    <a class="nav-link active" href="#home"><i class="fas fa-bolt"></i></a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#am">Arctic Monkeys</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#honne">Honne</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#loyle">Loyle Carner</a>
+  </li>
+	<li class="nav-item">
+    <a class="nav-link" href="#bal">Balthazar</a>
+  </li>
+	<li class="nav-item">
+    <a class="nav-link" href="#ben">Ben Howard</a>
+  </li>
+	<li class="nav-item">
+    <a class="nav-link" href="#ross">Ross From Friends</a>
+  </li>
+</ul>
+</nav>
+	<div class="container">
+<div class="home" id="home">
   <div class="row"> 
     <!-- begin textbox 1.1 -->
-    <div class="col-4" >
+    <div class="col-12 col-md-5" >
       <div class="titel">
         <h1><strong>"You <br>
           Should<br>
@@ -25,46 +53,47 @@
           To <br>
           This"</strong></h1>
       </div>
+		
     </div>
     
     <!-- begin textbox 1.1 -->
-    <div class="col-8">
-      <div class="container">
+    <div class="col-12 col-md-7">
+      <div class="row justify-content-around">
         <div class="rondjes">
-          <div class="row">
+          <div class="row justify-content-between">
             <div class="col-6">
-              <div class="linkam"> <img src="ArcticMonkeys.jpg" alt="Artic Monkeys" width="200" class="rounded-circle">
+              <a class="linkam" href="#am"> <img src="images/ArcticMonkeys.jpg" alt="Artic Monkeys" width="200" class="rounded-circle">
                 <h4 class="text-center text-uppercase col-xl-11 offset-xl-1">Artic Monkeys</h4>
-              </div>
+              </a>
             </div>
             <div class="col-6">
-              <div class="linkhonne"> <img src="Honne.jpeg" alt="Honne" width="200" class="rounded-circle img-fluid">
+              <a class="linkhonne" href="#honne"> <img src="images/Honne.jpeg" alt="Honne" width="200" class="rounded-circle img-fluid">
                 <h4 class="col-xl-7 text-center text-uppercase offset-xl-3">Honne</h4>
-              </div>
+              </a>
             </div>
           </div>
           <div class="row">
             <div class="col-6">
-              <div class="linkloyle"> <img src="Loyle-Carner-album-Not-Waving-But-Drowning.jpg" alt="Loyle Carner" width="200" class="rounded-circle img-fluid">
+              <a class="linkloyle" href="#loyle"> <img src="images/Loyle-Carner-album-Not-Waving-But-Drowning.jpg" alt="Loyle Carner" width="200" class="rounded-circle img-fluid">
                 <h4 class="text-uppercase text-center offset-xl-1 col-xl-11">Loyle Carner</h4>
-              </div>
+              </a>
             </div>
-            <div class="col-6">
-              <div class="linkbal"> <img src="balthazar.jpg" alt="balthazar" width="200" class="rounded-circle">
+            <div class="col-6 justify-content-center">
+              <a class="linkbal text-center" href="#bal"> <img src="images/balthazar.jpg" alt="balthazar" width="200" class="rounded-circle">
                 <h4 class="text-center text-uppercase offset-xl-3 col-xl-8">Balthazar</h4>
-              </div>
+              </a>
             </div>
           </div>
           <div class="row">
             <div class="col-6">
-              <div class="linkben"> <img src="behoward.jpg" alt="Ben Howard" width="200" class="rounded-circle img-fluid">
+              <a class="linkben" href="#ben"> <img src="images/behoward.jpg" alt="Ben Howard" width="200" class="rounded-circle img-fluid">
                 <h4 class="text-center text-uppercase col-xl-10 offset-xl-1">Ben Howard</h4>
-              </div>
+              </a>
             </div>
             <div class="col-6">
-              <div class="linkross"> <img src="Rossfromfriends_FamilyPortrait.jpg" alt="Ross From Friends" width="200" class="rounded-circle img-fluid">
+              <a class="linkross text-center" href="#ross"> <img src="images/Rossfromfriends_FamilyPortrait.jpg" alt="Ross From Friends" width="200" class="rounded-circle img-fluid">
                 <h4 class="text-center text-uppercase col-xl-12">Ross From Friends</h4>
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -72,9 +101,9 @@
     </div>
   </div>
 </div>
-<div class="arcticmonkeys">
+<div class="arcticmonkeys" id="am">
   <div class="row">
-    <div class="col-6"> <img src="ArcticMonkeys.jpg" alt="Artic Monkeys" width="550" class="rounded-circle">
+    <div class="col-6"> <img src="images/ArcticMonkeys.jpg" alt="Artic Monkeys" width="550" class="rounded-circle">
      <div class="band"> <h2 class="text-center"><strong>ARCTIC MONKEYS</strong></h2></div>
     </div>
     <div class="col-6">
@@ -87,7 +116,7 @@
           The Blond-o-sonic Shimmer Trap</p>
         <p class="jaar"><strong>2002</strong></p>
 		  <div class="speelnu">
-        <button type="button" class="btn btn-success">Speel Nu</button>
+        <button type="button" class="btn btn-success">Luister Nu</button>
       </div>
       </div>
       
@@ -97,9 +126,9 @@
 <!-- einde textbox --> 
 
 <!-- begin textbox 1.3 -->
-	<div class="honne">
+	<div class="honne" id="honne">
 <div class="row">
-  <div class="col-6"> <img src="Honne.jpeg" alt="Honne" width="560" class="rounded-circle">
+  <div class="col-6"> <img src="images/Honne.jpeg" alt="Honne" width="560" class="rounded-circle">
     <div class="band">
       <h2 class="text-center"><strong>HONNE</strong></h2>
     </div>
@@ -113,7 +142,7 @@
         Location Unknown, (featuring Georgia) Crying Over You, (featuring BEKA), Shrink I Just Wanna Go Back, Sometimes, Forget Me Not</p>
       <p class="jaar"><strong>2014</strong></p>
 		 <div class="speelnu">
-      <button type="button" class="btn btn-success">Speel Nu</button>
+      <button type="button" class="btn btn-success">Luister Nu</button>
     </div>
     </div>
    
@@ -122,10 +151,10 @@
   <!-- einde textbox --> 
   
   <!-- begin textbox 2.1 -->
-		<div class="loylecarner">
+		<div class="loylecarner" id="loyle">
   <div class="row">
-    <div class="col-6"> <img src="Loyle-Carner-album-Not-Waving-But-Drowning.jpg" alt="Loyle Carner" width="560" class="rounded-circle">
-      <div class="band"><h2 class="text-center"><strong>Loyle Carner</strong></h2></div>
+    <div class="col-6"> <img src="images/Loyle-Carner-album-Not-Waving-But-Drowning.jpg" alt="Loyle Carner" width="560" class="rounded-circle">
+      <div class="band"><h2 class="text-center"><strong>LOYLE CARNER</strong></h2></div>
     </div>
     <div class="col-6">
       <div class="albumnaam">
@@ -137,7 +166,7 @@
         <p class="songs">Dear Jean, Angel, You Don’t Know, Still, Ice Water, Ottolenghi, It’s coming home, Desoleil, Krispy, Loose Ends, Looking Back, Dear Ben, Not Waving But Drowning, Seal Away Freestyle</p>
         <p class="jaar "><strong>2012</strong></p>
 		  <div class="speelnu">
-        <button type="button" class="btn btn-success">Speel Nu</button>
+        <button type="button" class="btn btn-success">Luister nu </button>
       </div>
       </div>
       
@@ -147,9 +176,9 @@
   <!-- einde textbox --> 
   
   <!-- begin textbox 2.2 -->
-		<div class="rff">
+		<div class="rff" id="#ross">
   <div class="row">
-    <div class="col-6"> <img src="Rossfromfriends_FamilyPortrait.jpg" alt="Ross From Friends" width="560" class="rounded-circle">
+    <div class="col-6"> <img src="images/Rossfromfriends_FamilyPortrait.jpg" alt="Ross From Friends" width="560" class="rounded-circle">
       <div class="band">
         <h2><strong>ROSS FROM FRIENDS</strong></h2>
       </div>
@@ -164,15 +193,15 @@
           Talk To Me You’l Understand</p>
         <p class="jaar"><strong>2015</strong></p>
 		  <div class="speelnu">
-        <button type="button" class="btn btn-success">Speel Nu</button>
+        <button type="button" class="btn btn-success">Luister Nu</button>
       </div>
       </div>
     </div>
   </div>
 			</div>
-			<div class="balthazar">
+			<div class="balthazar" id="bal">
   <div class="row">
-    <div class="col-6"> <img src="balthazar.jpg" alt="Balthazar" width="560" class="rounded-circle">
+    <div class="col-6"> <img src="images/balthazar.jpg" alt="Balthazar" width="560" class="rounded-circle">
       <div class="band"><h2><strong>BALTHAZAR</strong></h2></div>
     </div>
     <div class="col-6">
@@ -184,17 +213,19 @@
         <p class="songs">Fever, Phone Number, Changes, Wrong Faces, Watchu’Doing, Entertainment, Never Gonna Let You Down Again, Grapefruit, Wrong Vibration, Rollercoaster, You’re So Real</p>
         <p class="jaar"><strong>2015</strong></p>
 		  <div class="speelnu">
-        <button type="button" class="btn btn-success">Speel Nu</button>
+        <button type="button" class="btn btn-success">Luister Nu</button>
       </div>
       </div>
     </div>
   </div>
 </div>
 	</div>
-	<div class="ben">
+	<div class="ben" id="ben">
 <div class="row">
-  <div class="col-6"> <img src="behoward.jpg" alt="Ben Howard" width="560" class="rounded-circle">
-    <div class="band"><h2><strong>Ben Howard</strong></h2></div>
+  <div class="col-6"> <img src="images/behoward.jpg" alt="Ben Howard" width="560" class="rounded-circle">
+    <div class="band">
+      <h2><strong>BEN HOWARD</strong></h2>
+    </div>
   </div>
   <div class="col-6">
     <div class="albumnaam"><h2>Every Kingdom</h2></div>
@@ -204,17 +235,28 @@
       <p class="songs">Old Pine, Promise, Keep Your Head Up, Black Flies, The Wolves, The Fear, Gracious, Under The Same Sun, Burgh Island, I Will Be Blessed, Diamonds, Empty Corridors, These Waters, Oats In The Water, Move Like You Want, Bones, 7 bottles, Esmeralda, Everything, Conrad, To Be Alone</p>
       <p class="jaar"><strong>2008</strong></p>
 		 <div class="speelnu">
-      <button type="button" class="btn btn-success">Speel Nu</button>
+      <button type="button" class="btn btn-success">Luister Nu</button>
     </div>
     </div>
   </div>
 </div>
 		</div>
 <div class="row">
+	<div class="col-12">
   <div class="footer">
-    <div>
-      <p class="text-right"><em> Eelbode Justine - Artevelde Hogeschool - Cross Media Ontwerp Jaar 2 - UxUi "You Should Listen To This"</em></p>
+	  <div class="container">
+	  <div class="row">
+		  
+		    <div class="col-8">
+      <p ><em> Eelbode Justine - Artevelde Hogeschool - Cross Media Ontwerp Jaar 2 - UxUi "You Should Listen To This"</em></p>
     </div>
+		  <div class="col-4">
+		 <img src="images/artelogo.png" alt="Ben Howard" width="560" class="rounded-circle">
+		  </div>
+		  </div>
+	  
+	  </div>
+  
   </div>
 </div>
 </body>
